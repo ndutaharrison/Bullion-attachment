@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://reuels.bulliondigitech.co.ke/template/css/bayanno.css" media="screen" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> 
+<title>Manage profile</title>
+  </head>
+  <body>
+    <div class="container-fluid padded">
+        <div class="box">
+            <div class="box header">
+                <ul class="nav nav-tabs nav-tabs-left">
+                    <li class="active">
+                    <a href="#list" data toggle="tab"><i class="icon-align-justify"></i>
+                    Manage Profile</a></li>
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <a class="btn btn-default" href="#">
+                        <i class="fa fa-align-justify" title="Align Justify"></i>
+                      </a>
+                </ul>
+
+ </div>
+<div class="box-content padded">
+    <div class="tab-content">
+        <div class="tab-pane box active" id="list" style="padding: 5px;">
+        <div class="box-content padded">
+            <form action="https://reuels.bulliondigitech.co.ke/index.php?/doctor/manage_profile/update_profile_info" method="post" accept-charset="utf-8" class="form-horizontal validatable"><div style="display:none">
+                <input type="hidden" name="authenticity_token" value="c9c22e80e25c0e809a0995f448fd39f6" />
+                </div>
+                <div class="control-group">
+                <label class="control-label">Name</label>
+                <div class="controls">
+                <input type="text" class="" name="name" value="Elphas Okapesi"/>
+                </div>
+                </div>
+                <div class="control-group">
+                <label class="control-label">Email</label>
+                <div class="controls">
+                <input type="text" class="" name="email" value="doctor@reuelsmedicalcentre.co.ke"/>
+                </div>
+                </div>
+                <div class="control-group">
+                <label class="control-label">Address</label>
+                <div class="controls">
+                <input type="text" class="" name="address" value="52 Kelly Drive"/>
+                </div>
+                </div>
+                <div class="control-group">
+                <label class="control-label">Phone</label>
+                <div class="controls">
+                <input type="text" class="" name="phone" value="3240006965"/>
+                </div>
+                </div>
+                <div class="form-actions">
+                <button type="submit" class="btn btn-primary">Update Profile</button>
+                </div>
+                </form>
+                    </div>
+                </div>
+            </div>
+        
+<!--password-->
+<div class="box">
+    <div class="box-header">
+    <!------CONTROL TABS START------->
+        <ul class="nav nav-tabs nav-tabs-left">
+             <li class="active">
+                <a href="#list" data-toggle="tab"><i class="icon-lock"></i>
+    Change Password
+             </a></li>
+    </ul>
+    <!------CONTROL TABS END------->
+    </div>
+    <div class="box-content padded">
+        <div class="tab-content">
+    <!----EDITING FORM STARTS---->
+        <div class="tab-pane box active" id="list" style="padding: 5px">
+             <div class="box-content padded">
+                <form action="https://reuels.bulliondigitech.co.ke/index.php?/doctor/manage_profile/change_password" method="post" accept-charset="utf-8" class="form-horizontal validatable"><div style="display:none">
+    <input type="hidden" name="authenticity_token" value="c9c22e80e25c0e809a0995f448fd39f6" />
+    </div>
+                    <div class="control-group">
+                        <label class="control-label">Password</label>
+                         <div class="controls">
+                             <input type="password" class="" name="password" value=""/>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">New Password</label>
+                        <div class="controls">
+                            <input type="password" class="" name="new_password" value=""/>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">Confirm New Password</label>
+                        <div class="controls">
+                            <input type="password" class="" name="confirm_new_password" value=""/>
+                         </div>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Update Password</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
